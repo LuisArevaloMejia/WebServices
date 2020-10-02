@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BD.asmx" />
+    <Content Include="Home.aspx" />
     <Content Include="Lista_Productos.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -75,6 +76,13 @@
     <Compile Include="BD.asmx.cs">
       <DependentUpon>BD.asmx</DependentUpon>
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Lista_Productos.asmx.cs">
       <DependentUpon>Lista_Productos.asmx</DependentUpon>

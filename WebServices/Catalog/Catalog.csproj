@@ -7,16 +7,16 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E0D3AD46-F291-448D-A930-24DB8C70A637}</ProjectGuid>
+    <ProjectGuid>{ECA26B12-1808-4398-BBCA-4F50F71F905C}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Catologo</RootNamespace>
-    <AssemblyName>Catologo</AssemblyName>
+    <RootNamespace>Catalog</RootNamespace>
+    <AssemblyName>Catalog</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44352</IISExpressSSLPort>
+    <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -69,7 +69,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\WSBD\BD.disco" />
+    <None Include="Connected Services\WSBD\BaseDatos.disco" />
     <None Include="Connected Services\WSBD\configuration91.svcinfo" />
     <None Include="Connected Services\WSBD\configuration.svcinfo" />
     <None Include="Connected Services\WSBD\Reference.svcmap">
@@ -78,7 +78,7 @@
     </None>
     <Content Include="Inicio.aspx" />
     <Content Include="Web.config" />
-    <None Include="Connected Services\WSBD\BD.wsdl" />
+    <None Include="Connected Services\WSBD\BaseDatos.wsdl" />
     <Content Include="Properties\DataSources\System.Data.DataSet.datasource" />
   </ItemGroup>
   <ItemGroup>
@@ -124,11 +124,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>61538</DevelopmentServerPort>
+          <DevelopmentServerPort>62253</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:44352/</IISUrl>
-          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
-          <IISAppRootUrl>http://localhost:44352/</IISAppRootUrl>
+          <IISUrl>http://localhost:62253/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
